@@ -1,0 +1,52 @@
+{
+  "name": "pan-opt",
+  "version": "1.0.0",
+  "description": "panopticon-js Panopticon SDK for javascript",
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch",
+    "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"./**/*.{ts,tsx}\"",
+    "prettier": "prettier --write --config \"./.prettierrc\" \"./**/*.{js,jsx,ts,tsx}\""
+  },
+  "engines": {
+    "node": "14.15.1",
+    "npm": "6.14.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juyoungpark718/test-npm-publish.git"
+  },
+  "keywords": ["SDK","Panopticon,pan-opt,javascript,error"],
+  "contributors": [
+    "JuyoungPark <juyoung7018.park@gmail.com> (https://github.com/juyoungpark718)",
+    "Lewis <lewis@zillinks.com> (https://zillinks.com)",
+    "Neo <neo@zillinks.com> (https://zillinks.com)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juyoungpark718/test-npm-publish/issues"
+  },
+  "homepage": "https://github.com/juyoungpark718/test-npm-publish",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.0",
+    "@typescript-eslint/parser": "^4.8.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "ts-loader": "^8.0.11",
+    "webpack": "^4.44.2",
+    "typescript": "^4.0.5",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "bowser": "^2.11.0",
+    "error-stack-parser": "^2.0.6",
+  }
+}
